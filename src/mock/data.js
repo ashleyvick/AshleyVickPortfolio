@@ -40,7 +40,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project6.png',
+    img: 'Project6.png',
     title: 'Royal Family Quiz',
     info: 'Which Duchess from the Royal Family Are You?',
     info2: 'This was my very first Web Developement project using React, axios, and express. ',
