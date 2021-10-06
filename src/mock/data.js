@@ -10,48 +10,41 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Ashley Vick',
+  subtitle: 'Full Stack Web Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'Profile.jpg',
+  paragraphOne:
+    'People-oriented and creative. Looking to become a successful Full-Stack Software Engineer. Specializes in React and Javascript. Also have experience working with Node, SQL, HTML, CSS/SASS, Git and GitHub.',
+  paragraphTwo:
+    'I am constantly striving for personal development by continual learning and growth, committed to creating a culture of positivity towards everyone I meet and work with.',
+  paragraphThree: 'Check out my resume to learn more.',
+  resume: 'https://docs.google.com/document/d/1VOhOaAG3ubVO8hyE3rvm0Pnhud_IQCnLELsFMe5UoRM/edit', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Project3.png',
+    title: 'Cafe Jardin',
+    info: 'Project using React, Node, Express and PostgreSQL. Full-stack website where a user is required to create a profile in order to make a reservation at a restaurant. The user is able to create a profile where they can make reservations, view and cancel their current reservations and subscribe via text and/or email for upcoming promotions and events.',
+    info2:
+      'Completed front-end, back-end (full CRUD), hosted website with domain name in 2 months. Learned SASS, Twilio and NodeMailer  on the fly.',
+    url: 'http://www.cafejardin.org/#/',
+    repo: 'https://github.com/ashleyvick/Personal-Project-WRPT2', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project6.png',
+    title: 'Royal Family Quiz',
+    info: 'Which Duchess from the Royal Family Are You?',
+    info2: 'This was my very first Web Developement project using React, axios, and express. ',
+    repo: 'https://github.com/ashleyvick/NoDB-Royal-Quiz', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +52,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'aeromrell@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +60,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ashley-vick-a734941ba/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ashleyvick',
     },
   ],
 };
