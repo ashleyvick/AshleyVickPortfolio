@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'I am constantly striving for personal development by continual learning and growth, committed to creating a culture of positivity towards everyone I meet and work with.',
   paragraphThree: 'Check out my resume to learn more.',
-  resume: 'https://docs.google.com/document/d/1VOhOaAG3ubVO8hyE3rvm0Pnhud_IQCnLELsFMe5UoRM/edit', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1kLbhkls7bnIxh9g1JcZuKxeN4I-1fLMk/edit?usp=sharing&ouid=103047061146321144163&rtpof=true&sd=true', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
