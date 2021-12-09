@@ -31,6 +31,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'debugclub1.png',
+    title: 'Debub Club',
+    info: 'First Full Stack Web Application with Group Collaboration using React, Axios, Redux, Node.js, Express, PostgreSQL, Framer-motion, and SASS.',
+    info2:
+      'User is able to create profile, post on dashboard, filter through popular hashtags, update profile settings, etc.',
+    repo: 'https://github.com/the-cobras/debug-club', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Project3.png',
     title: 'Cafe Jardin',
     info: 'Project using React, Node, Express and PostgreSQL. Full-stack website where a user is required to create a profile in order to make a reservation at a restaurant. The user is able to create a profile where they can make reservations, view and cancel their current reservations and subscribe via text and/or email for upcoming promotions and events.',
